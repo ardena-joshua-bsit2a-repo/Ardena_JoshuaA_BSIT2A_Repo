@@ -1,7 +1,13 @@
 function printName(firstname, lastname) {
-    var fullname = firstname + lastname;
-    return fullname 
+    var fullname = firstname + " " + lastname;
+    return fullname; 
 
 }
 
-console.log('My name is ', 'Joshua', 'Ardeña')
+
+fname = "Juswa";
+lname = "Ardena"
+
+var myName = printName(fname, lname);
+
+console.log('My name is ', myName); 
